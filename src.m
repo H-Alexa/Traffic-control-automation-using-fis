@@ -9,9 +9,9 @@ if g<1
     
     b = input('Is alcohol present (0 for no, 1 for yes): ');
     c = input('Is the driver physically fit? (0 for no, 1 for yes): ');
-    g=evalfis([a,b,c],f);
+    g=evalfis([0,b,c],f);
     if g<1
-        disp('***The vehicle is stopped***')
+        disp('***Other things are also needed to be checked***')
     else
         disp('***Other things are okay***')
     end

@@ -4,7 +4,7 @@ Type='mamdani'
 Version=2.0
 NumInputs=3
 NumOutputs=1
-NumRules=3
+NumRules=4
 AndMethod='min'
 OrMethod='max'
 ImpMethod='min'
@@ -44,3 +44,4 @@ MF2='Vehicle_is_clear':'trimf',[1 1 1]
 2 0 0, 2 (1) : 1
 1 0 0, 2 (1) : 1
 3 2 1, 1 (1) : 2
+0 2 1, 1 (1) : 2
