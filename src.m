@@ -1,4 +1,7 @@
 %%Fuzzy traffic control%%
+clc;
+clear all;
+close all;
 f=readfis('Vehicle protection.fis')
 a = input('Vehicle speed (km/h): ');
 g=evalfis([a,0,1],f);
